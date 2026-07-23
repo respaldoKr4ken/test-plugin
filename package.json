@@ -9,11 +9,7 @@
   "files": [
     "android/src/main/",
     "android/build.gradle",
-    "dist/",
-    "ios/Sources",
-    "ios/Tests",
-    "Package.swift",
-    "Respaldokr4kenPluginTest.podspec"
+    "dist/"
   ],
   "author": "Este es un test",
   "license": "MIT",
@@ -23,6 +19,9 @@
   },
   "bugs": {
     "url": "https://github.com/respaldoKr4ken/test-plugin.git/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "capacitor",
